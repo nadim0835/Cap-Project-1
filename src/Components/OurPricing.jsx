@@ -31,7 +31,7 @@ const OurPricing = () => {
         >
           <div className=" relative">
             <Img src={plan} />
-            <div className=" flex flex-col items-center absolute transform bottom-[6%]  lg:bottom-[10%] left-[50%] translate-x-[-50%] ">
+            <div className=" flex flex-col items-center absolute transform bottom-[4%]  md:bottom-[14%] lg:bottom-[10%] left-[50%] translate-x-[-50%] ">
               <div className="flex items-center gap-3">
                 <Img src={vic} />
                 <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-10  ">
@@ -76,7 +76,7 @@ const OurPricing = () => {
           </div>
           <div className=" relative">
             <Img src={plan2} />
-            <div className=" flex flex-col items-center absolute transform bottom-[6%]  lg:bottom-[10%] left-[50%] translate-x-[-50%] ">
+            <div className=" flex flex-col items-center absolute transform bottom-[4%]  md:bottom-[14%] lg:bottom-[10%] left-[50%] translate-x-[-50%] ">
               <div className="flex items-center gap-3">
                 <Img src={vic} />
                 <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-10  ">
@@ -121,7 +121,7 @@ const OurPricing = () => {
           </div>
           <div className=" relative">
             <Img src={plan3} />
-            <div className=" flex flex-col items-center absolute transform bottom-[6%]  lg:bottom-[10%] left-[50%] translate-x-[-50%] ">
+            <div className=" flex flex-col items-center absolute transform bottom-[4%]  md:bottom-[14%] lg:bottom-[10%]  left-[50%] translate-x-[-50%] ">
               <div className="flex items-center gap-3">
                 <Img src={vic} />
                 <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-10  ">

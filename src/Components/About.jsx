@@ -79,7 +79,7 @@ const About = () => {
           </div>
         </Flex>
         <Flex
-          className={`lg:mt-[120px] mt-[30px] items-center  lg:flex-row flex-col`}
+          className={`lg:mt-[120px] mt-[30px] items-center md:flex-wrap md:justify-center lg:flex-nowrap  md:flex-row flex-col`}
         >
           <div className=" relative">
             <Img src={gdesine} />
