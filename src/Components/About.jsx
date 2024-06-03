@@ -16,7 +16,7 @@ const About = () => {
       <Container>
         <Flex
           className={` flex items-center lg:gap-[109px] gap-10 lg:flex-row flex-col lg:px-0 px-5`}
-          
+
         >
           <Img src={Aboutimg} />
           <div>
@@ -29,7 +29,7 @@ const About = () => {
 
             <h1
               className=" font-nunito font-bold text-[46px] leading-[56px] w-auto lg:w-[655px]
-              text-[#1A1A1A] mt-4  "
+              text-[#1A1A1A] mt-4"
             >
               Best Digital Marketing Agency For People
             </h1>
