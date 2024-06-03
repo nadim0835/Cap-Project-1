@@ -16,6 +16,7 @@ const About = () => {
       <Container>
         <Flex
           className={` flex items-center lg:gap-[109px] gap-10 lg:flex-row flex-col lg:px-0 px-5`}
+          
         >
           <Img src={Aboutimg} />
           <div>
