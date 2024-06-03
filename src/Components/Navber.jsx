@@ -106,7 +106,7 @@ const Navber = () => {
                       Home
                       <FaAngleDown className=" inline-block  " />
                     </a>
-                    <ul className=" px-4  py-2 invisible h-0 group-hover:visible duration-300 group-hover:h-[130px]  lg:absolute top-6 left-[-40px] bg-slate-200 lg:w-[130px] w-[100%]">
+                    <ul className=" px-4  lg:py-2 invisible h-0 group-hover:visible duration-300 group-hover:h-[130px]  lg:absolute top-6 left-[-40px] bg-slate-200 lg:w-[130px] w-[100%] rounded-md">
                       <li className="py-2 hover:text-black ">Page 01</li>
                       <li className="py-2 hover:text-black ">Page 01</li>
                       <li className="py-2 hover:text-black ">Page 01</li>
