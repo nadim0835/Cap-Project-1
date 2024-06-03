@@ -6,7 +6,7 @@ import Button from "./Button";
 
 const Banner = () => {
   return (
-    <section className=" bg-[url('./src/assets/img/HeroBanner.png')]   pb-[80px] lg:pb-0 bg-no-repeat bg-cover  bg-center lg:bg-auto "
+    <section className=" bg-[url('/HeroBanner.png')]   pb-[80px] lg:pb-0 bg-no-repeat bg-cover  bg-center lg:bg-auto "
    
     >
       <Container>
