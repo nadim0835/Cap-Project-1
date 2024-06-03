@@ -7,7 +7,10 @@ import Flex from "./Flex";
 import Button from "./Button";
 const Appointment = () => {
   return (
-    <section className=" relative bg-plan bg-no-repeat bg-cover bg-center mt-[70px] lg:mt-[150px] lg:pb-0 pb-7 ">
+    <section className=" bg-[url('./src/assets/img/aut.png')] relative  bg-no-repeat bg-cover bg-center mt-[70px] lg:mt-[150px] lg:pb-0 pb-7 "
+    
+    
+    >
       <Container>
         <div className=" lg:absolute top-[-14%] left-[50%] lg:translate-y-0 translate-y-[-40px] lg:transform lg:translate-x-[-50%] lg:px-0 px-4">
           <Img className={`w-auto`} src={plan4} />

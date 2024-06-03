@@ -6,7 +6,9 @@ import Button from "./Button";
 
 const Banner = () => {
   return (
-    <section className="  pb-[80px] lg:pb-0  bg-banner bg-no-repeat bg-cover  bg-center lg:bg-auto ">
+    <section className=" bg-[url('./src/assets/img/HeroBanner.png')]   pb-[80px] lg:pb-0 bg-no-repeat bg-cover  bg-center lg:bg-auto "
+   
+    >
       <Container>
         <Flex className={`justify-between lg:items-center items-start flex-col lg:flex-row pt-[140px] lg:overflow-x-hidden `}>
           <div className=" order-2 lg:order-1 pl-5 lg:pl-0">
