@@ -1,8 +1,10 @@
-import React from "react";
+
 import Container from "./Container";
 import { GiArcheryTarget } from "react-icons/gi";
 import Img from "./Img";
-import psot from "../assets/img/Post 1.png";
+import psot1 from "../assets/img/Post 1.png";
+import psot2 from "../assets/img/Post 2.png";
+import psot3 from "../assets/img/Post 3.png";
 import Flex from "./Flex";
 
 const OurBlog = () => {
@@ -23,10 +25,12 @@ const OurBlog = () => {
             Latest Blogs & Articles
           </h1>
         </div>
-        <Flex className={` flex-col lg:flex-row  
-         lg:flex-nowrap  items-center mt-[47px] gap-8 lg:gap-0`}>
+        <Flex
+          className={` flex-col lg:flex-row  
+         lg:flex-nowrap  items-center mt-[47px] gap-8 lg:gap-0`}
+        >
           <div className=" relative px-5">
-            <Img src={psot} />
+            <Img src={psot1} />
             <div className=" absolute bottom-[20px] left-[40px] md:left-[50px]">
               <h2 className="  font-nunito font-bold lg:text-[25px] text-[20px] lg:w-[386px] w-[300px] text-[#A1A1A] hover:text-[#3661FC] duration-300">
                 Successful business partner have a meeting and discussing
@@ -34,18 +38,18 @@ const OurBlog = () => {
             </div>
           </div>
           <div className=" relative px-5">
-            <Img src={psot} />
+            <Img src={psot2} />
             <div className=" absolute bottom-[20px] left-[40px] md:left-[50px]">
               <h2 className="  font-nunito font-bold lg:text-[25px] text-[20px] lg:w-[386px] w-[300px] text-[#A1A1A] hover:text-[#3661FC] duration-300">
-                Successful business partner have a meeting and discussing
+                Motivated colleagues celebrating corporate success together
               </h2>
             </div>
           </div>
           <div className=" relative px-5">
-            <Img src={psot} />
+            <Img src={psot3} />
             <div className=" absolute bottom-[20px] left-[40px] md:left-[50px]">
               <h2 className="  font-nunito font-bold lg:text-[25px] text-[20px] lg:w-[386px] w-[300px] text-[#A1A1A] hover:text-[#3661FC] duration-300">
-                Successful business partner have a meeting and discussing
+                Man using a tablet to a work and connect with others
               </h2>
             </div>
           </div>

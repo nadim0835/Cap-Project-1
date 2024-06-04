@@ -1,7 +1,7 @@
 import { GiArcheryTarget } from "react-icons/gi";
-import Container from "../Components/Container";
-import Flex from "../Components/Flex";
-import Button from "../Components/Button";
+import Container from "./Container";
+import Flex from "./Flex";
+import Button from "./Button";
 
 const We = () => {
   return (

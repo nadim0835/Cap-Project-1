@@ -6,8 +6,8 @@ import OurPricing from '../Components/OurPricing';
 import Appointment from '../Components/Appointment';
 import Creative from '../Components/Creative';
 import Slider from '../Components/Slider';
-import We from './We';
 import OurBlog from '../Components/OurBlog';
+import We from './../Components/We';
 const Home = () => {
   return (
     <>

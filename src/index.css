@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  li::marker {
+    @apply text-[#3661FC];
+  }
+  /* ... */
+}

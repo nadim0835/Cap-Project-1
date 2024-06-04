@@ -11,7 +11,7 @@ export default {
         'nunito': ["Nunito","sans-serif" ],
       },
       backgroundImage: {
-        'banner': "url('/public/HeroBanner.png')",
+        'banner': "url('./public/Footer.png')",
         'plan': "url('./src/assets/img/Start New Project With Us.png')",
       }
     },
