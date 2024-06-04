@@ -76,41 +76,41 @@ const OurPricing = () => {
           </div>
           <div className=" relative">
             <Img src={plan2} />
-            <div className=" flex flex-col items-center absolute transform bottom-[4%]  md:bottom-[14%] lg:bottom-[10%] left-[50%] translate-x-[-50%] ">
+            <div className=" flex flex-col items-center absolute transform bottom-[10%] lg:bottom-[10%] left-[50%] translate-x-[-50%] ">
               <div className="flex items-center gap-3">
                 <Img src={vic} />
-                <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-10  ">
+                <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-8  text-[14px]   ">
                   Free Consultations
                 </h4>
               </div>
               <div className="flex items-center gap-3">
                 <Img src={vic} />
-                <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-10  ">
+                <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-8  text-[14px]   ">
                   Business Planning
                 </h4>
               </div>
               <div className="flex items-center gap-3">
                 <Img src={vic} />
-                <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-10 ">
+                <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-8  text-[14px] ">
                   Investment Process
                 </h4>
               </div>
               <div className="flex items-center gap-3">
                 <Img src={vic} />
-                <h4 className=" font-dmSans lg:text-[18px] text-[#BCBCBC] lg:leading-[44px] leading-10  ">
+                <h4 className=" font-dmSans lg:text-[18px] text-[#BCBCBC] lg:leading-[44px] leading-8  text-[14px]  ">
                   Market Research
                 </h4>
               </div>
 
               <div className="flex items-center gap-3">
                 <Img src={vic} />
-                <h4 className=" font-dmSans lg:text-[18px] text-[#BCBCBC] lg:leading-[44px] leading-10  ">
+                <h4 className=" font-dmSans lg:text-[18px] text-[#BCBCBC] lg:leading-[44px] leading-8  text-[14px]  ">
                   Online Support
                 </h4>
               </div>
               <div className="flex items-center gap-3">
                 <Img src={vic} />
-                <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-10 ">
+                <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-8  text-[14px] ">
                   Unlimited Updates
                 </h4>
               </div>
@@ -121,41 +121,41 @@ const OurPricing = () => {
           </div>
           <div className=" relative">
             <Img src={plan3} />
-            <div className=" flex flex-col items-center absolute transform bottom-[4%]  md:bottom-[14%] lg:bottom-[10%]  left-[50%] translate-x-[-50%] ">
+            <div className=" flex flex-col items-center absolute transform bottom-[10%] lg:bottom-[10%] left-[50%] translate-x-[-50%] ">
               <div className="flex items-center gap-3">
                 <Img src={vic} />
-                <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-10  ">
+                <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-8  text-[14px]   ">
                   Free Consultations
                 </h4>
               </div>
               <div className="flex items-center gap-3">
                 <Img src={vic} />
-                <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-10  ">
+                <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-8  text-[14px]   ">
                   Business Planning
                 </h4>
               </div>
               <div className="flex items-center gap-3">
                 <Img src={vic} />
-                <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-10 ">
+                <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-8  text-[14px] ">
                   Investment Process
                 </h4>
               </div>
               <div className="flex items-center gap-3">
                 <Img src={vic} />
-                <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-10  ">
+                <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A]lg:leading-[44px] leading-8  text-[14px]  ">
                   Market Research
                 </h4>
               </div>
 
               <div className="flex items-center gap-3">
                 <Img src={vic} />
-                <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-10  ">
+                <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-8  text-[14px]  ">
                   Online Support
                 </h4>
               </div>
               <div className="flex items-center gap-3">
                 <Img src={vic} />
-                <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-10 ">
+                <h4 className=" font-dmSans lg:text-[18px] text-[#1A1A1A] lg:leading-[44px] leading-8  text-[14px] ">
                   Unlimited Updates
                 </h4>
               </div>
@@ -164,6 +164,7 @@ const OurPricing = () => {
               </button>
             </div>
           </div>
+         
         </Flex>
       </Container>
     
