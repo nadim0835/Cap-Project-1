@@ -2,7 +2,12 @@ import { CiCalendarDate, CiFacebook } from "react-icons/ci";
 import Button from "./Button";
 import Container from "./Container";
 import Flex from "./Flex";
-import { FaLinkedin, FaLocationPin, FaTwitter, FaYoutube } from "react-icons/fa6";
+import {
+  FaLinkedin,
+  FaLocationPin,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa6";
 import squreimg from "../assets/img/Rectangle 42.png";
 import Img from "./Img";
 import { IoCallOutline } from "react-icons/io5";
@@ -150,6 +155,28 @@ const Footer = () => {
           </div>
         </Flex>
       </Container>
+      <main className=" bg-[#3661FC]">
+        <Container>
+          <Flex className={` justify-between items-center flex-col px-5 lg:px-0 md:flex-row gap-5 py-[22px]`}>
+            <p className=" font-dmSans text-[16px] leading-7 text-[#FFF]">
+              2022 © All rights reserved by devsnest-llc
+            </p>
+            <div className=" flex gap-4">
+              <p className=" font-dmSans text-[16px] leading-7 text-[#FFF]">
+                Privacy Policy
+              </p>
+              <p className=" font-dmSans text-[16px] leading-7 text-[#FFF]">
+                {" "}
+                | 
+              </p>
+              <p className=" font-dmSans text-[16px] leading-7 text-[#FFF]">
+                {" "}
+                 Terms & Conditions
+              </p>
+            </div>
+          </Flex>
+        </Container>
+      </main>
     </footer>
   );
 };

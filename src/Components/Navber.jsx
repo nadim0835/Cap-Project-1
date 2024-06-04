@@ -16,6 +16,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { TiThMenuOutline } from "react-icons/ti";
 import { useState } from "react";
 import { MdShoppingBag } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Navber = () => {
   const [dropDown, setdropDown] = useState(false);
@@ -96,17 +97,19 @@ const Navber = () => {
             {
               // dropDown&&
               <div
-                className={` absolute lg:w-auto w-[60%] bg-white  duration-300   lg:static top-24 h-screen ${
+                className={` absolute z-50  lg:w-auto w-[60%] bg-white  duration-300   lg:static top-24 h-screen ${
                   dropDown ? "left-0" : "left-[-500px]"
                 } lg:h-auto `}
               >
                 <ul className=" flex justify-between items-start lg:items-center lg:gap-6 lg:flex-row flex-col ">
                   <li className=" font-dmSans text-[16px] text-[#1A1A1A] duration-300  cursor-pointer border-solid border-b-2  w-full lg:w-auto pl-3 py-2 lg:p-0 lg:border-none relative group  ">
+                    <Link to={`/`}>
                     <a className="inline-block " href="#">
                       Home
-                      <FaAngleDown className=" inline-block  " />
+                      <FaAngleDown className=" hidden md:inline-block  " />
                     </a>
-                    <ul className=" px-4  lg:py-2 invisible h-0 group-hover:visible duration-300 group-hover:h-[130px]  lg:absolute top-6 left-[-40px] bg-slate-200 lg:w-[130px] w-[100%] rounded-md">
+                    </Link>
+                    <ul className=" px-4  lg:py-2 invisible h-0 group-hover:visible duration-200 group-hover:h-[130px] opacity-0 group-hover:opacity-100  lg:absolute top-6 left-[-40px] bg-slate-200 lg:w-[130px] w-[100%]  rounded-md">
                       <li className="py-2 hover:text-black ">Page 01</li>
                       <li className="py-2 hover:text-black ">Page 01</li>
                       <li className="py-2 hover:text-black ">Page 01</li>
@@ -114,9 +117,11 @@ const Navber = () => {
                     </ul>
                   </li>
                   <li className=" font-dmSans text-[16px] text-[#1A1A1A] duration-300 hover:text-[#FE651B] cursor-pointer border-solid border-b-2  pl-3 py-2 lg:p-0 w-full lg:w-auto lg:border-none ">
-                    <a className="inline-block "  href="#">
+                    <Link to={`/about`}>
+                    
                       About
-                    </a>
+                    
+                    </Link>
                   </li>
 
                   <li className=" font-dmSans text-[16px] text-[#1A1A1A] duration-300 hover:text-[#FE651B] cursor-pointer border-solid border-b-2 pl-3 py-2 lg:p-0  w-full lg:w-auto lg:border-none ">

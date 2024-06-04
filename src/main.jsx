@@ -15,13 +15,12 @@ import {
   Route,
   RouterProvider
 } from "react-router-dom";
+import Aboutroute from './Components/Aboutroute.jsx';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home/>}/>
-      <Route path="/about" element={<About/>} />
-      <Route path="/about/nadim" element={<About/>} />
-
+      <Route path="/about" element={<Aboutroute/>} />
       <Route path="/product/:productid" element={<Product/>} />
       <Route path="*" element={<Error/>} />
     </Route>
