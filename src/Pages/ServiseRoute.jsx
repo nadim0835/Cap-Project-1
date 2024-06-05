@@ -133,33 +133,34 @@ const ServiseRoute = () => {
               Best Quality Services
             </h1>
           </main>
-          <Flex className={` justify-between mt-[46px] flex-col lg:flex-row lg:gap-0 gap-8 px-5 `}>
+          <Flex className={` justify-between pt-[46px] flex-col lg:flex-row lg:gap-0 gap-8 px-5 `}>
 
-            <div className=" relative inline-block ">
+         
+            <div className=" relative md:bg-white rounded-[20px] ">
               <Img src={imge2} />
-              <div className=" md:w-[248px] w-[240px] absolute md:top-[43px] top-6 md:left-[185px] lg:right-8 left-[140px]  ">
+              <div className=" lg:w-[248px] w-[240px] md:w-[60%] absolute md:top-[43px] top-4 md:right-10 right-[-42px]    ">
                 <h2
                   className=" font-nunito font-bold duration-200 text-[18px] md:text-[25px] text-black 
               hover:text-[#3661FC]"
                 >
-                  Business Planning
+                Business Planning
                 </h2>
-                <p className=" font-dmSans md:text-[16px] text-[14px] md:w-auto w-[170px] text-black mt-1 md:mt-4">
+                <p className=" font-dmSans md:text-[16px] text-[14px] w-[170px] md:w-full text-black mt-1 md:mt-4">
                   There are many variations of pass Lorem Ipsum available, but
                   the a have suffered alteration.
                 </p>
               </div>
             </div>
-            <div className=" relative inline-block ">
+            <div className=" relative md:bg-white rounded-[20px] ">
               <Img src={imge3} />
-              <div className=" md:w-[248px] w-[240px] absolute md:top-[43px] top-6 md:left-[185px] lg:right-8 left-[140px]  ">
+              <div className=" lg:w-[248px] w-[240px] md:w-[60%] absolute md:top-[43px] top-4 md:right-10 right-[-42px]    ">
                 <h2
                   className=" font-nunito font-bold duration-200 text-[18px] md:text-[25px] text-black 
               hover:text-[#3661FC]"
                 >
-                  Market research
+               Market research
                 </h2>
-                <p className=" font-dmSans md:text-[16px] text-[14px] md:w-auto w-[170px] text-black mt-1 md:mt-4">
+                <p className=" font-dmSans md:text-[16px] text-[14px] w-[170px] md:w-full text-black mt-1 md:mt-4">
                   There are many variations of pass Lorem Ipsum available, but
                   the a have suffered alteration.
                 </p>
@@ -167,7 +168,7 @@ const ServiseRoute = () => {
             </div>
             <div className=" relative md:bg-white rounded-[20px] ">
               <Img src={imge4} />
-              <div className=" lg:w-[248px] w-[240px] md:w-[60%] absolute md:top-[43px] top-6 md:right-10 right-[-42px]    ">
+              <div className=" lg:w-[248px] w-[240px] md:w-[60%] absolute md:top-[43px] top-4 md:right-10 right-[-42px]    ">
                 <h2
                   className=" font-nunito font-bold duration-200 text-[18px] md:text-[25px] text-black 
               hover:text-[#3661FC]"
