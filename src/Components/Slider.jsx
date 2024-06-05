@@ -20,8 +20,6 @@ const Slider = () => {
             <Img className={`lg:block hidden`} src={image2}/>
             <Img src={image1}/>
             
-            
-
         </Flex>
       </Container>
     </section>

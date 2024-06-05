@@ -6,8 +6,14 @@ import imge1 from "../assets/img/Add your image here.png";
 import imge2 from "../assets/img/Business Planning.png";
 import imge3 from "../assets/img/Market research.png";
 import imge4 from "../assets/img/Completely Solution.png";
+import image1 from "../assets/img/slider.png";
+import image2 from "../assets/img/Line Shape.png";
+import image3 from "../assets/img/saw.png";
+
 
 import { FaSearch } from "react-icons/fa";
+
+import Button from './../Components/Button';
 
 const ServiseRoute = () => {
   return (
@@ -47,10 +53,10 @@ const ServiseRoute = () => {
             </h1>
           </main>
           <Flex
-            className={` lg:items-center justify-between bg-[#F4F4FF] py-5 lg:pl-5 lg:pr-[60px] flex-col lg:flex-row lg:gap-0 gap-8 items-start lg:rounded-[50px] border duration-200 hover:border-[#FE651B] px-5 md:mt-[46px] mt-8`}
+            className={` lg:items-center justify-between bg-[#F4F4FF] py-5 lg:pl-5 lg:pr-[60px] flex-col lg:flex-row lg:gap-0 gap-8 items-start md:items-center lg:rounded-[50px] border duration-200 hover:border-[#FE651B] px-5 md:mt-[46px] mt-8`}
           >
             <Img src={imge1} />
-            <div className=" font-nunito font-bold text-[25px] lg:w-[55%] md:w-[80%] w-[100%] ">
+            <div className=" font-nunito font-bold text-[25px] lg:w-[55%] md:w-full w-[100%] ">
               <h2>Search Engine Optimization</h2>
               <p className=" font-dmSans text-[16px] leading-7 pt-5  text-[#6B6161] ">
                 There are many variations of passages of Lorem Ipsusm available,
@@ -59,7 +65,7 @@ const ServiseRoute = () => {
                 even sligh believable. If you are going to use a passage.
               </p>
             </div>
-            <button className=" font-dmSans text-[18px] leading-7 duration-300 hover:bg-[#FE651B]  py-[15px] hover:text-white px-8 rounded-[500px] border-[#FE651B] border">
+            <button className="  font-dmSans text-[18px] leading-7 duration-300 hover:bg-[#FE651B]  py-[15px] hover:text-white px-8 rounded-[500px] border-[#FE651B] border">
               Read More
             </button>
           </Flex>
@@ -133,9 +139,9 @@ const ServiseRoute = () => {
               Best Quality Services
             </h1>
           </main>
-          <Flex className={` justify-between pt-[46px] flex-col lg:flex-row lg:gap-0 gap-8 px-5 `}>
-
-         
+          <Flex
+            className={` justify-between pt-[46px] flex-col lg:flex-row lg:gap-0 gap-8 px-5 `}
+          >
             <div className=" relative md:bg-white rounded-[20px] ">
               <Img src={imge2} />
               <div className=" lg:w-[248px] w-[240px] md:w-[60%] absolute md:top-[43px] top-4 md:right-10 right-[-42px]    ">
@@ -143,7 +149,7 @@ const ServiseRoute = () => {
                   className=" font-nunito font-bold duration-200 text-[18px] md:text-[25px] text-black 
               hover:text-[#3661FC]"
                 >
-                Business Planning
+                  Business Planning
                 </h2>
                 <p className=" font-dmSans md:text-[16px] text-[14px] w-[170px] md:w-full text-black mt-1 md:mt-4">
                   There are many variations of pass Lorem Ipsum available, but
@@ -158,7 +164,7 @@ const ServiseRoute = () => {
                   className=" font-nunito font-bold duration-200 text-[18px] md:text-[25px] text-black 
               hover:text-[#3661FC]"
                 >
-               Market research
+                  Market research
                 </h2>
                 <p className=" font-dmSans md:text-[16px] text-[14px] w-[170px] md:w-full text-black mt-1 md:mt-4">
                   There are many variations of pass Lorem Ipsum available, but
@@ -173,7 +179,7 @@ const ServiseRoute = () => {
                   className=" font-nunito font-bold duration-200 text-[18px] md:text-[25px] text-black 
               hover:text-[#3661FC]"
                 >
-                Completely Solution
+                  Completely Solution
                 </h2>
                 <p className=" font-dmSans md:text-[16px] text-[14px] w-[170px] md:w-full text-black mt-1 md:mt-4">
                   There are many variations of pass Lorem Ipsum available, but
@@ -181,11 +187,57 @@ const ServiseRoute = () => {
                 </p>
               </div>
             </div>
-         
-          
           </Flex>
         </Container>
       </section>
+      <section className="bg-[url('/lets.png')] bg-no-repeat bg-cover lg:py-[109px] py-10  bg-center lg:bg-auto  ">
+        <Container>
+          <main className=" flex lg:items-center items-start px-5 justify-center flex-col">
+            <div className=" flex gap-2 items-center  ">
+              <GiArcheryTarget className=" text-[25px] text-[#FFFF] " />
+              <h3 className=" font-dmSans font-medium text-[20px] text-[#FE651B]">
+                Let’s Support
+              </h3>
+            </div>{" "}
+            <h1
+              className=" font-nunito font-bold text-[46px] leading-[56px]
+              text-[#FFFF] mt-4  "
+            >
+              You need our support to have any projects?
+            </h1>
+          </main>
+
+          <Flex className={` px-5 lg:px-0 flex-col mt-7 items-center gap-8`}>
+            <p className=" font-dmSans font-medium text-[20px] text-center lg:w-[832px] w-auto text-white ">
+              Enthusiastically architect corporate metrics via enterprise
+              methodologies. Progressively extend distinctive process
+              improvements rather than parallel channels.
+            </p>
+            <div> 
+             <button className=" py-[15px] md:px-[33px] px-5 border border-[#FE651B] font-dmSans font-[18px] leading-8 text-white md:mr-7 mr-4 rounded-[50px] hover:bg-[#FE651B]">
+             Set Free Quotes
+             </button>
+             <button className=" py-[15px] md:px-[33px] px-5 border border-[#FE651B] font-dmSans font-[18px] leading-8 text-white rounded-[50px] hover:bg-[#FE651B]">
+             Contact For Us
+             </button>
+             
+            </div>
+          </Flex>
+        </Container>
+      </section>
+
+      <section className=" lg:py-[120px] py-10 ">
+      <Container>
+        <Flex className={` px-5 gap-6 lg:gap-0 justify-between lg:flex-row flex-col`}>
+            <Img src={image3}/>
+            <Img className={`lg:block hidden`} src={image2}/>
+            <Img src={image1}/>
+            
+            
+
+        </Flex>
+      </Container>
+    </section>
     </>
   );
 };
