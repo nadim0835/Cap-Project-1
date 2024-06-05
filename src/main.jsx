@@ -16,13 +16,17 @@ import {
 import Aboutroute from "./Pages/Aboutroute.jsx";
 import ServiseRoute from "./Pages/ServiseRoute.jsx";
 import ServiceDetailsroute from "./Pages/ServiceDetailsroute.jsx";
+import Teamroute from "./Pages/Teamroute.jsx";
+import TeamDetailsroute from "./Pages/TeamDetailsroute.jsx";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
       <Route path="/about" element={<Aboutroute />} />
       <Route path="/service" element={<ServiseRoute />} />
-      <Route path="/serviceetails" element={<ServiceDetailsroute />} />
+      <Route path="/servicdetails" element={<ServiceDetailsroute />} />
+      <Route path="/team" element={<Teamroute />} />
+      <Route path="/teamdetails" element={<TeamDetailsroute />} />
       
 
       <Route path="/product/:productid" element={<Product />} />
