@@ -214,14 +214,15 @@ const ServiseRoute = () => {
               improvements rather than parallel channels.
             </p>
             <div> 
-             <button className=" py-[15px] md:px-[33px] px-5 border border-[#FE651B] font-dmSans font-[18px] leading-8 text-white md:mr-7 mr-4 rounded-[50px] hover:bg-[#FE651B]">
+             <button className=" py-[10px] md:px-[33px] lg:px-5 px-4 border border-[#FE651B] font-dmSans lg:text-[18px] text-[14px] leading-8 text-white md:mr-7 mr-2 rounded-[50px] hover:bg-[#FE651B]">
              Set Free Quotes
              </button>
-             <button className=" py-[15px] md:px-[33px] px-5 border border-[#FE651B] font-dmSans font-[18px] leading-8 text-white rounded-[50px] hover:bg-[#FE651B]">
+             <button className=" py-[10px] md:px-[33px] lg:px-5 px-4 border border-[#FE651B] font-dmSans lg:text-[18px] text-[14px] leading-8 text-white md:mr-7 mr-2 rounded-[50px] hover:bg-[#FE651B]">
              Contact For Us
              </button>
              
             </div>
+           
           </Flex>
         </Container>
       </section>
