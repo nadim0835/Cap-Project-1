@@ -9,7 +9,7 @@ import { FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa6";
 const Creative = () => {
   return (
     <section className="bg-[#F4F4FF] lg:py-[120px] py-10">
-      <Container>
+        <Container>
         <div className=" flex lg:items-center items-start px-5 justify-center flex-col">
           <div className=" flex gap-2 items-center  ">
             <GiArcheryTarget className=" text-[25px] text-[#FE651B] " />
@@ -29,7 +29,7 @@ const Creative = () => {
           <div className=" bg-white    inline-block px-5 py-6 pt-5 text-center rounded-[30px]">
             <Img src={member} />
             <div className="relative  ">
-              <div className=" group-hover:invisible">
+              <div className=" group-hover:invisible duration-200  opacity-100 group-hover:opacity-0">
                 <h3 className=" font-nunito mt-6  text-[25px] font-bold text-black ">
                   Robert Sions
                 </h3>
@@ -37,7 +37,7 @@ const Creative = () => {
                   Business Consultant
                 </p>
               </div>
-              <div className=" absolute  bottom-[-20px] invisible  duration-300  left-[50%] transform translate-x-[-50%] group-hover:bottom-0 group-hover:visible">
+              <div className=" cursor-pointer absolute  bottom-[-20px] invisible    left-[50%] transform translate-x-[-50%] group-hover:bottom-0 group-hover:visible duration-200  opacity-0 group-hover:opacity-100">
                 <div className=" flex  justify-center gap-3">
                   <CiFacebook className=" rounded-[50%] hover:text-[#F4F4FF] hover:bg-[#3661FC] text-[40px] bg-[#F4F4FF] text-[#3661FC]" />
                   <FaTwitter className=" rounded-[50%] hover:text-[#F4F4FF] hover:bg-[#3661FC] text-[40px] bg-[#F4F4FF] text-[#3661FC]" />
@@ -52,7 +52,7 @@ const Creative = () => {
           <div className=" bg-white    inline-block px-5 py-6 pt-5 text-center rounded-[30px]">
             <Img src={member} />
             <div className="relative  ">
-              <div className=" group-hover:invisible">
+              <div className=" group-hover:invisible duration-200  opacity-100 group-hover:opacity-0">
                 <h3 className=" font-nunito mt-6  text-[25px] font-bold text-black ">
                   Robert Sions
                 </h3>
@@ -60,7 +60,7 @@ const Creative = () => {
                   Business Consultant
                 </p>
               </div>
-              <div className=" absolute  bottom-[-20px] invisible  duration-300  left-[50%] transform translate-x-[-50%] group-hover:bottom-0 group-hover:visible">
+              <div className=" cursor-pointer absolute  bottom-[-20px] invisible    left-[50%] transform translate-x-[-50%] group-hover:bottom-0 group-hover:visible duration-200  opacity-0 group-hover:opacity-100">
                 <div className=" flex  justify-center gap-3">
                   <CiFacebook className=" rounded-[50%] hover:text-[#F4F4FF] hover:bg-[#3661FC] text-[40px] bg-[#F4F4FF] text-[#3661FC]" />
                   <FaTwitter className=" rounded-[50%] hover:text-[#F4F4FF] hover:bg-[#3661FC] text-[40px] bg-[#F4F4FF] text-[#3661FC]" />
@@ -75,7 +75,7 @@ const Creative = () => {
           <div className=" bg-white    inline-block px-5 py-6 pt-5 text-center rounded-[30px]">
             <Img src={member} />
             <div className="relative  ">
-              <div className=" group-hover:invisible">
+              <div className=" group-hover:invisible duration-200  opacity-100 group-hover:opacity-0">
                 <h3 className=" font-nunito mt-6  text-[25px] font-bold text-black ">
                   Robert Sions
                 </h3>
@@ -83,7 +83,7 @@ const Creative = () => {
                   Business Consultant
                 </p>
               </div>
-              <div className=" absolute  bottom-[-20px] invisible  duration-300  left-[50%] transform translate-x-[-50%] group-hover:bottom-0 group-hover:visible">
+              <div className=" cursor-pointer absolute  bottom-[-20px] invisible    left-[50%] transform translate-x-[-50%] group-hover:bottom-0 group-hover:visible duration-200  opacity-0 group-hover:opacity-100">
                 <div className=" flex  justify-center gap-3">
                   <CiFacebook className=" rounded-[50%] hover:text-[#F4F4FF] hover:bg-[#3661FC] text-[40px] bg-[#F4F4FF] text-[#3661FC]" />
                   <FaTwitter className=" rounded-[50%] hover:text-[#F4F4FF] hover:bg-[#3661FC] text-[40px] bg-[#F4F4FF] text-[#3661FC]" />
@@ -98,7 +98,7 @@ const Creative = () => {
           <div className=" bg-white    inline-block px-5 py-6 pt-5 text-center rounded-[30px]">
             <Img src={member} />
             <div className="relative  ">
-              <div className=" group-hover:invisible">
+              <div className=" group-hover:invisible duration-200  opacity-100 group-hover:opacity-0">
                 <h3 className=" font-nunito mt-6  text-[25px] font-bold text-black ">
                   Robert Sions
                 </h3>
@@ -106,7 +106,7 @@ const Creative = () => {
                   Business Consultant
                 </p>
               </div>
-              <div className=" absolute  bottom-[-20px] invisible  duration-300  left-[50%] transform translate-x-[-50%] group-hover:bottom-0 group-hover:visible">
+              <div className=" cursor-pointer absolute  bottom-[-20px] invisible    left-[50%] transform translate-x-[-50%] group-hover:bottom-0 group-hover:visible duration-200  opacity-0 group-hover:opacity-100">
                 <div className=" flex  justify-center gap-3">
                   <CiFacebook className=" rounded-[50%] hover:text-[#F4F4FF] hover:bg-[#3661FC] text-[40px] bg-[#F4F4FF] text-[#3661FC]" />
                   <FaTwitter className=" rounded-[50%] hover:text-[#F4F4FF] hover:bg-[#3661FC] text-[40px] bg-[#F4F4FF] text-[#3661FC]" />
@@ -117,6 +117,7 @@ const Creative = () => {
             </div>
           </div>
         </div>
+      
 
         </Flex>
       </Container>
