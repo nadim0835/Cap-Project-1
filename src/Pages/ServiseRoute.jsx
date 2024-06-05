@@ -136,7 +136,7 @@ const ServiseRoute = () => {
           <Flex className={` justify-between mt-[46px] flex-col lg:flex-row lg:gap-0 gap-8 px-5 `}>
             <div className=" relative inline-block ">
               <Img src={imge2} />
-              <div className=" md:w-[248px] w-[240px] absolute md:top-[43px] top-6 md:left-[185px] lg:right-8 left-[150px]  ">
+              <div className=" md:w-[248px] w-[240px] absolute md:top-[43px] top-6 md:left-[185px] lg:right-8 left-[140px]  ">
                 <h2
                   className=" font-nunito font-bold duration-200 text-[18px] md:text-[25px] text-black 
               hover:text-[#3661FC]"
