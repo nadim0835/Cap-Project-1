@@ -72,7 +72,7 @@ const TeamDetailsroute = () => {
                 </div>
               </div>
               <div className=" flex justify-between items-center mt-10">
-                <p className=" font-dmSans text-[15px] md:text-[26px]  font-medium leading-7 text-black ">
+                <p className=" font-dmSans text-[17px]  :text-[26px]  font-medium leading-7 text-black ">
                   Follow Me:
                 </p>
                 <div className=" flex gap-5">
